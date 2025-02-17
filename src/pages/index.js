@@ -31,6 +31,12 @@ const links = [
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
+  {
+    text: "Unique Change",
+    url: "https://github.com/PeeplesKaitlyn-FS/MyGatsbyStaticSite.git",
+    description:
+      "This is the link to my GitHub repository to show I can make changes!",
+  },
 ]
 
 const samplePageLinks = [
