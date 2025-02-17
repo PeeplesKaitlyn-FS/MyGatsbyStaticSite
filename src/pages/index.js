@@ -95,6 +95,9 @@ const IndexPage = () => (
         <br />
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
+      <p>
+        <Link to="/new-article">Best Practices for Using APIs in React</Link>
+      </p>
     </div>
     <ul className={styles.list}>
       {links.map(link => (
