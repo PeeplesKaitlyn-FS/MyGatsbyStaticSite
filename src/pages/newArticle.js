@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 const BestPracticesPage = () => {
   return (
@@ -54,6 +53,9 @@ fetch('https://api.example.com/data')
           Handle API rate limits and errors.
         </li>
       </ul>
+
+      <h2>Example API Request Diagram</h2>
+      <img src="/images/api-request-diagram.png" alt="API Request Diagram" width="500" />
 
       <h2>Conclusion</h2>
       <p>
