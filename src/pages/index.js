@@ -103,6 +103,8 @@ const IndexPage = () => (
       </p>
       <p>
         <Link to="/newArticle">Best Practices for Using APIs in React</Link>
+        <br />
+        <Link to="/secondArticle">Deploying a React App to Multiple Platforms</Link>
       </p>
     </div>
     <ul className={styles.list}>
