@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const BestPracticesPage = () => {
   return (
@@ -55,7 +56,11 @@ fetch('https://api.example.com/data')
       </ul>
 
       <h2>Example API Request Diagram</h2>
-      <img src="/images/api-request-diagram.png" alt="API Request Diagram" width="500" />
+      <StaticImage
+        src="../images/api-request-diagram.png"
+        alt="API Request Diagram"
+        width={500}
+      />
 
       <h2>Conclusion</h2>
       <p>
